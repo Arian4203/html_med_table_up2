@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 h1{
     color:green;
@@ -31,11 +31,11 @@ main{
     padding: 20px;
 }
 .content{
-    background: #b9fbc0;
+    background: #00f518;
     padding: 200px;
 }
 .sidebar {
-    background: pink;
+    background: rgb(255, 2, 44);
     padding: 200px;
 }
 footer{
@@ -43,6 +43,8 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+
 
 
 
