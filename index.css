@@ -14,35 +14,43 @@ p{
 
 body { 
     margin: 0;
-    height: 100%; 
+    font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr; 
+    min-height: 100vh;
 }
-header{
-    background: blueviolet;
+
+header {
+    background: rgb(0, 238, 255);
+    color: white;
     padding: 20px;
     text-align: center;
 }
-main{
+
+main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap:10px;
+    gap: 10px;
     padding: 20px;
 }
-.content{
-    background: #00f518;
-    padding: 200px;
+
+article {
+    background: rgb(255, 0, 255);
+    color: white;
+    padding: 20px;
 }
-.sidebar {
-    background: rgb(255, 2, 44);
-    padding: 200px;
+
+aside {
+    background: pink;
+    padding: 20px;
 }
-footer{
+
+footer {
     background: yellow;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
+
 
 
 
